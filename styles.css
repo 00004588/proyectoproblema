@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerpequeño{
+    background-color: rgb(2, 18, 27);
+    color: rgb(238, 238, 238);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+    position: relative;
+    
+}
+
+.headerpequeño .icono{
+    display: flex;
+    position: relative;
+    left: 800px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+/* carrusel */
+
+.carousel-inner{
+    height: 550px;
+
+}
+
+
+.carousel-item{
+    background-color: rgb(44, 44, 44);
+    height: 100%;
+    background-size: 100%;
+    color: white;
+    margin: auto;
+    border: 1px solid red;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.carousel-item img{
+    margin: auto;
+    width: 450px;
+    position: relative;
+    left: 450px;
+    height: 100%;
+}
+.carousel-item div{
+    border: 1px solid red;
+}
+
+.carousel-item h1{
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+/* footer */
+/* footer{
+    height: 4000px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    background-color: rgb(2, 18, 27);
+    color: rgb(238, 238, 238);
+    width: 100;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+    position: relative;
+    gap: 1rem;
+    border-top: 1px solid gray;
+} */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  background-color: rgb(2, 18, 27);
+  color: rgb(238, 238, 238);
+  padding: 40px;
+}
+
+.col-contacto h4,
+.col-productos h4,
+.col-info h4 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.col-productos ul,
+.col-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.col-productos ul li,
+.col-info ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
